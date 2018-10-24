@@ -3,11 +3,11 @@
 
 ### Name : Shaimaa ALaqtash
 
-* _ WEEK-1: _
+*  _WEEK-1:_
 
     [Introduction to git and github](https://github.com/shaimaaalaqtash/udemy-git.git)
 
-* _WEEEK-2:_
+* -WEEEK-2:-
 
     Creating Markdown file
 
