@@ -11,6 +11,6 @@
 
     Creating Markdown file
 
-*_Week3:_
+* _Week3:_
     
     Introduction to Python: Numbers and Strings
