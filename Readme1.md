@@ -7,7 +7,7 @@
 
     [Introduction to git and github](https://github.com/shaimaaalaqtash/udemy-git.git)
 
-* -WEEEK-2:-
+* _WEEEK-2:_
 
     Creating Markdown file
 
