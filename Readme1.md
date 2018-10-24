@@ -10,3 +10,7 @@
 * _WEEEK-2:_
 
     Creating Markdown file
+
+*_Week3:_
+    
+    Introduction to Python: Numbers and Strings
