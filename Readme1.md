@@ -3,7 +3,7 @@
 
 ### Name : Shaimaa ALaqtash
 
-* _WEEK-1:_
+* _ WEEK-1: _
 
     [Introduction to git and github](https://github.com/shaimaaalaqtash/udemy-git.git)
 
