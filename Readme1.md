@@ -3,14 +3,14 @@
 
 ### Name : Shaimaa ALaqtash
 
-*  _WEEK-1:_
+*  __WEEK-1:__
 
     [Introduction to git and github](https://github.com/shaimaaalaqtash/udemy-git.git)
 
-* _WEEEK-2:_
+* __WEEEK-2:__
 
     Creating Markdown file
 
-* _Week3:_
+* __WEEK-3:__
     
     Introduction to Python: Numbers and Strings
