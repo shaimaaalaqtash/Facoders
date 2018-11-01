@@ -14,3 +14,7 @@
 * __WEEK-3:__
     
     Introduction to Python: Numbers and Strings
+
+* __WEEK-4__
+    
+    Introduction to python: If statement, While loop.
