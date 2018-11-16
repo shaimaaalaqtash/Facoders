@@ -1,7 +1,7 @@
 print("Numbers from 1 to 10")
 x=6
 m=int(input("Guess the number: "))
-while m!=x and m>=1 and m<=10 :
+while m!=x:
     m=int(input("Guess the number:"))
-if m==x :
+else:
     print("Great! you did it! ")

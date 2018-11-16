@@ -12,9 +12,17 @@
     Creating Markdown file
 
 * __WEEK-3:__
-    
+
     Introduction to Python: Numbers and Strings
 
-* __WEEK-4__
-    
+* __WEEK-4:__
+
     Introduction to python: If statement, While loop.
+
+* __WEEK-5:__
+
+     Lists and for loop
+
+* __WEEK-6:__
+
+    Dectionaries , User-Defined Functions , Types Of Errors.
