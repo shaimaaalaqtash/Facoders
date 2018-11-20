@@ -6,33 +6,38 @@ grade_two= {'Lana': [17, 19, 20, 28, 9], 'Dina': [18.5, 19.5, 20, 29, 10], 'Maha
 
 grade_three= {'Rima': [18, 19, 18, 26, 9], 'Tala': [20, 20, 19, 29, 10], 'Lamar': [19, 20, 18, 26, 9], 'Rola': [15, 14, 16, 19, 7], 'Naya': [9, 6, 11, 14, 7], 'Dalal': [1, 5, 2, 6, 7], 'Ola': [19.5, 20, 20, 29.5, 10]}
 
-ch=input("Choose one: students_names, student_score, students_count")
+def students_names(room):
+    names_list= list(room.keys())
+    return names_list
 
-if ch=='students_names':
-    room=input('Enter grade:')
-    def students_names(room):
-        names_list= list(room.keys())
-        return names_list
-    print(students_names(room))
+def student_score(room, name):
+    if name in room:
+         markes=room.get(name)
+         scores=sum(markes)
+    return scores
 
-elif ch=='student_score':
-    name,room =input('Enter name:'),input('Enter grade:')
-    def student_score(room, name):
-        if name in room:
-            markes=room.get(name)
-            scores=sum(markes)
-        return scores
-    print(student_score(room, name))
+def student_count(room):
+    count=len(room)
+    return count
 
-elif ch=='students_count':
-    room =input('Enter grade:')
-    def student_count(room):
-        count=len(room)
-        return count
-    print(student_count(room))
+while True:
 
-a=input('done or more:')
-if a=='done':
-    exit
-elif a=='more':
-    print("Choose one: students_names, student_score, students_count")
+    ch=input("Choose one: students_names, student_score, students_count")
+
+    if ch=='students_names':
+        room=input('Enter grade:')
+        print(students_names(room))
+
+    elif ch=='student_score':
+        name,room =input('Enter name:'),input('Enter grade:')
+        print(student_score(room, name))
+
+    elif ch=='students_count':
+        room =input('Enter grade:')
+        print(student_count(room))
+
+    a=input('done or more:')
+    if a=='done':
+        break
+    elif a=='more':
+        continue
